@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: initial !important;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+
+.sidebar.scrollbar-hide:hover {
+  scrollbar-width: auto !important;
+
+}
+
+
+@media screen and (max-width:576px) {
+  .hidden {
+    display: none !important;
+  }
+
+  .sidebar {
+    display: none;
+    left: -100px;
+    background: #fff;
+    transition: all 0.3s;
+    overflow-y: scroll;
+
+  }
+
+  .mainContent {
+    padding-left: 5px;
+  }
+
+  .logo {
+    width: 60% !important;
+
+  }
+
+  .logo img {
+    width: 100% !important;
+  }
+
+  .open {
+    display: block;
+    left: 0px;
+    transition: all 0.3s;
+    overflow-y: scroll;
+  }
+
+  .channel {
+    flex-wrap: nowrap !important;
+  }
+
+  .live-chat {
+    width: 100%;
+  }
+
+}

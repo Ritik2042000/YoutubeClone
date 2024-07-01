@@ -1,0 +1,38 @@
+.youtube-card-loader {
+    /* width: 100%; */
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+    /* overflow: hidden; */
+    margin: 16px;
+
+    background-color: #f9f9f9;
+}
+
+.thumbnail-yt {
+    width: 100%;
+    height: 200px;
+    background-color: #e3e3e3;
+}
+
+.content {
+    padding: 16px;
+}
+
+.line {
+    height: 16px;
+    background-color: #e3e3e3;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+.line1 {
+    width: 80%;
+}
+
+.line2 {
+    width: 60%;
+}
+
+.line3 {
+    width: 40%;
+}
